@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3CD0FF"
+    tools:context=".DetailPlayActivity">
+    <TextView
+        android:id="@+id/lableImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MỜI BẠN CHỌN HÌNH"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"/>
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/lableImg"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/option1Img"
+            android:layout_marginTop="20dp"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/img_screen_44_1"/>
+        <ImageView
+            android:id="@+id/option2Img"
+            android:layout_marginTop="20dp"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/img_screen_44_2"/>
+        <ImageView
+            android:id="@+id/option3Img"
+            android:layout_marginTop="20dp"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/img_screen_44_3"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
